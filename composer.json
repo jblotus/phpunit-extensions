@@ -1,6 +1,6 @@
 {
-    "name": "etsy/phpunit-extensions",
-    "description": "Etsy PHPUnit Extensions",
+    "name": "jblotus/phpunit-extensions",
+    "description": "Etsy PHPUnit Extensions (jblotus fork)",
     "type": "library",
     "keywords": [
         "etsy",

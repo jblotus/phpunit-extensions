@@ -2,9 +2,9 @@
 
 require_once 'PHPUnit/Extensions/Database/DataSet/AbstractDataSet.php';
 
-class PHPUnit_Extensions_Database_DataSet_ArrayDataSet
+class PHPUnit_Extensions_Database_DataSet_ArrayDataSetEtsy
 extends PHPUnit_Extensions_Database_DataSet_AbstractDataSet {
-    
+
     private $tables;
 
     public function __construct(
@@ -52,4 +52,4 @@ extends PHPUnit_Extensions_Database_DataSet_AbstractDataSet {
         }
         return $this->tables[$table_name];
     }
-} 
+}

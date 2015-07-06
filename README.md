@@ -1,3 +1,10 @@
+This fork was created to deal with a class name conflict in PHPUnit_Extensions_Database_DataSet_ArrayDataSet with
+newer versions of PHPUnit (4.8+).
+
+
+Original Readme below this line
+===============================
+
 Etsy PHPUnit Extensions
 =======================
 
@@ -27,7 +34,7 @@ Version < 0.2.x requires PHP 5.2.9
 Contribute
 --------------------
 
-You're interested in contributing to Etsy PHPUnit Extensions? 
+You're interested in contributing to Etsy PHPUnit Extensions?
 
 Here are the basic steps:
 
@@ -50,5 +57,5 @@ We'll do our best to get your changes in!
 Contributors
 -----------------
 
-In lieu of a list of contributors, check out the commit history for the project: 
+In lieu of a list of contributors, check out the commit history for the project:
 http://github.com/etsy/phpunit-extensions/commits/master

@@ -51,7 +51,7 @@
       </dir>
       <dir name="Database">
        <dir name="DataSet">
-        <file name="ArrayDataSet.php" role="php" />
+        <file name="ArrayDataSetEtsy.php" role="php" />
        </dir>
       </dir>
       <dir name="Helper">
