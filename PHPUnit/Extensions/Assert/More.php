@@ -18,7 +18,7 @@ class PHPUnit_Extensions_Assert_More {
      * @param $message
      */
     public static function assertHasItems($expected, $actual, $message='') {
-        PHPUnit\Framework\Assert::assertThat(
+        PHPUnit_Framework_Assert::assertThat(
             $actual,
             new PHPUnit_Extensions_Constraint_HasItems($expected),
             $message);
@@ -35,7 +35,7 @@ class PHPUnit_Extensions_Assert_More {
      */
     public static function assertArrayHasKeyValuePair(
         $expectedKey, $expectedValue, $actual, $message='') {
-        PHPUnit\Framework\Assert::assertThat(
+        PHPUnit_Framework_Assert::assertThat(
             $actual,
             new PHPUnit_Extensions_Constraint_ArrayHasKeyValuePair($expectedKey, $expectedValue),
             $message);
@@ -52,7 +52,7 @@ class PHPUnit_Extensions_Assert_More {
     public static function assertArrayEqualsNoOrder(
         $expected, $actual, $message='') {
 
-        PHPUnit\Framework\Assert::assertThat(
+        PHPUnit_Framework_Assert::assertThat(
             $actual,
             new PHPUnit_Extensions_Constraint_ArrayEqualsNoOrder($expected),
             $message);
@@ -69,7 +69,7 @@ class PHPUnit_Extensions_Assert_More {
     public static function assertStringMatchIgnoreWhitespace(
         $expected, $actual, $message='') {
 
-        PHPUnit\Framework\Assert::assertThat(
+        PHPUnit_Framework_Assert::assertThat(
             $actual,
             new PHPUnit_Extensions_Constraint_StringMatchIgnoreWhitespace($expected),
             $message);
